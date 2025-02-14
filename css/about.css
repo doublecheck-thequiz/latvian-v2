@@ -10,18 +10,19 @@
   --cyan: #00FFFF;
   --blue: #007bff;
   --violet: #9900FF;
-  --font-light: MuseoModerno-Light;
-  --font-regular: MuseoModerno-Regular;
-  --font-bold: MuseoModerno-Regular;
-  --font-medium: MuseoModerno-Regular;
-  --font-semibold: MuseoModerno-Regular;
-  --font-var: MuseoModerno-Light;
-  --font-varbold: MuseoModerno-Regular;
-  --font-lightD: MuseoModerno-Light;
-  --font-regularD: MuseoModerno-Regular;
-  --font-boldD: MuseoModerno-Regular;
-  --font-mediumD: MuseoModerno-Regular;
-  --font-semiboldD: MuseoModerno-Regular;
+  --font-light: NotoSansArmenian-Light;
+  --font-regular: NotoSansArmenian-Regular;
+  --font-bold: NotoSansArmenian-Bold;
+  --font-medium: NotoSansArmenian-Medium;
+  --font-semibold: NotoSansArmenian-SemiBold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
+  --font-lightD: NotoSansDisplay-Light;
+  --font-regularD: NotoSansDisplay-Regular;
+  --font-boldD: NotoSansDisplay-Bold;
+  --font-mediumD: NotoSansDisplay-Medium;
+  --font-semiboldD: NotoSansDisplay-SemiBold;
 }
 
 /* Font Faces */
