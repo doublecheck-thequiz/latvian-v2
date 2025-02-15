@@ -14,15 +14,15 @@
   --font-regular: NotoSansArmenian-Regular;
   --font-bold: NotoSansArmenian-Bold;
   --font-medium: NotoSansArmenian-Medium;
-  --font-semibold: NotoSansArmenian-SemiBold;
+  --font-semibold: museoregular;
   --font-var: bandeins_strangeSBdExfull;
-  --font-varbold: bandeins_strangeBdExfull;
-  --font-varhalf: bandeins_strangeBdExhalf;
-  --font-lightD: NotoSansDisplay-Light;
-  --font-regularD: NotoSansDisplay-Regular;
-  --font-boldD: NotoSansDisplay-Bold;
-  --font-mediumD: NotoSansDisplay-Medium;
-  --font-semiboldD: NotoSansDisplay-SemiBold;
+  --font-varbold: museoregular;
+  --font-varhalf: museoregular;
+  --font-lightD: museolight;
+  --font-regularD: museoregular;
+  --font-boldD: museoregular;
+  --font-mediumD: museoregular;
+  --font-semiboldD: museoregular;
 }
 
 p {
@@ -57,6 +57,22 @@ a:hover {
 }
 
 /* Font Faces */
+@font-face {
+  font-family: 'museolight';
+  src: url('../css/fonts/MuseoModerno-Light.woff2') format('woff2'),
+    url('../css/fonts/MuseoModerno-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museoregular';
+  src: url('../css/fonts/MuseoModerno-Regular.woff2') format('woff2'),
+    url('../css/fonts/MuseoModerno-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'bandeins_strangebold';
   src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
